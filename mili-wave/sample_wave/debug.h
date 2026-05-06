@@ -1,12 +1,12 @@
 #ifndef _DEBUG_
 #define _DEBUG_
 
-#define _DEBUG
+// #define _DPRINT
 
-#ifdef _DEBUG
+#ifdef _DPRINT
 #define dprintf(...) printf(__VA_ARGS__)
 #else
-#define dprintf(...) ((void)0)
+#define dprintf(...)
 #endif
 
 #endif

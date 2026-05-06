@@ -1,5 +1,6 @@
 add_executable(sample_wave
         sample_wave.c
+        ld2410s_cmd.c
         )
 
 # pull in common dependencies
